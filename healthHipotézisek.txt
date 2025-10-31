@@ -1,0 +1,25 @@
+1. Ha valakinek nagyobb a BMI értéke, akkor egy nap több kalóriát fogyaszt el.
+2. Ha valaki több vizet iszik egy nap, akkor többet alszik.
+3. Ha valaki cigizik, akkor a nyugalmi szívverése nagyobb.
+4. Ha valakinek a napi lépésszáma több, akkor több kalóriát fogyaszt ÉS többet alszik.
+5. A férfiak több lépést tesznek meg egy nap és több kalóriát is fogyasztanak, mint a nők.
+6. A férfiak esetében nagyobb az esély, hogy a családban volt már betegség. (és ők is ki vannak téve a veszélynek)
+7. A fiatalabbak több lépést tesznek egy nap, mint az idősebbek.
+8. Az idősebbek nagyobb valószínűséggel dohányoznak ÉS fogyasztanak alkoholt, mint a fiatalok.
+9. A nők koleszterin szintje alacsonyabb, mint a férfiaké.
+10. A fiatalok körében nagyobb valószínűséggel fordul elő átlagtól magasabb BMI, mint az idősebbek körében.
+
+
+NEM használt oszlopok: systolic_bp, diastolic_bp
+
+1. A nagyobb BMI értékkel rendelkezők több kalóriát fogyasztanak el egy nap. - pozitív korreláció DONE
+2. Aki több vizet iszik egy nap, többet is alszik. - pozitív korreláció DONE
+3. A dohányzók körében magasabb a nyugalmi szívverés. - t-próba DONE
+4. A több napi lépésszámot megtevők, több kalóriát fogyasztanak el, és többet alszanak. - anova varianciavizsgálat / korreláció
+//t-próba lenne, külön kéne venni a két változót, ha az egyik nem szignifikáns akkor már együtt sem // 5. A férfiak több lépést tesznek meg egy nap és több kalóriát is fogyasztanak, mint a nők. - anova
+6. A férfiak esetében nagyobb arányban volt már a családban betegség, mint a nők körében. - t-próba DONE
+7. A fiatalabbak több lépést tesznek egy nap, mint az idősebbek. - t-próba DONE
+// ua mint 5 vagy 4-es szerűen // 8. Az idősebbek nagyobb százaléka dohányozik ÉS fogyaszt alkoholt, mint a fiatalok. - anova/t-próba
+9. A nők koleszterin szintje alacsonyabb, mint a férfiaké. - t-próba DONE
+// 10. A fiatalok körében nagyobb valószínűséggel fordul elő átlagtól magasabb BMI, mint az idősebbek körében. - t-próba
+11. Minél több kalóriát visz be, annál kevesebbet iszik. (negatív kapcsolat van a kalóriabevitel és a water intake között.) DONE
