@@ -51,7 +51,7 @@ def showBoxPlot(column):
 #-------------------------------------------------------------------------------------------------------------#
 
 healthDataSet = pd.read_csv("health_lifestyle_modified.csv")
-healthDataSetOriginal = pd.read_csv("health_lifestyle.csv")
+healthDataSetOriginal = pd.read_csv("health_lifestyle_dataset.csv")
 
 #-------------------------------------------------------------------------------------------------------------#
 
